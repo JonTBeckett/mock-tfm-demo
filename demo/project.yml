@@ -34,7 +34,6 @@
     - +:test/**
     - -:test/support
   :source:
-    - src/**
     - ../src/**
   :include:
     - ../inc/**
@@ -56,8 +55,7 @@
     - TEST
 
 :cmock:
-  :treat_inlines:
-    :exclude
+  :treat_inlines: :exclude
   :mock_prefix: mock_
   :when_no_prototypes: :warn
   :enforce_strict_ordering: TRUE
